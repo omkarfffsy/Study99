@@ -12,6 +12,10 @@ const glassNav = document.querySelector('.glass-nav');
 // 4. 'mainLink' is where the user goes when they click "Watch Now".
 
 const seriesData = [
+{ id: 1, title: "MATHS 2 CH 1 LECTURE 1",category: "12 TOPPERS BATCH 2026", isFeatured: true, image: "https://thumbs2.imgbox.com/60/35/PDj2Crbv_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/60/35/PDj2Crbv_t.jpg", mainLink: "https://litepaste.top/omxwldofwz" }] },
+
+{ id: 2, title: "MATHS 2 CH 1 LECTURE 2",category: "12 TOPPERS BATCH 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg", mainLink: "https://litepaste.top/lyivzbmvfa" }] },
+  
     { id: 101, title: "Maharashtra HSC - Revision Strategy", category: "Daily Maths", isFeatured: true, image: "https://images.unsplash.com/photo-1632559798476-eb3268840b38?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1632559798476-eb3268840b38?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 102, title: "Maths Chapter 1: Integration Basics", category: "Daily Maths", isFeatured: true, image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 201, title: "Physics Chapter 1: Thermodynamics", category: "Physics", isFeatured: true, image: "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
@@ -35,6 +39,34 @@ const seriesData = [
 // }
 
 const courseData = {
+ 
+  "TOPPERS BATCH 2026": {
+    "Maths 2 (Std 12)": [
+        { 
+            chapterName: "1. DIFFERENTIATION", 
+            videos: [ 
+                {title: "Lecture 1", url: "https://litepaste.top/omxwldofwz"}, 
+                {title: "Lecture 2", url: "https://litepaste.top/lyivzbmvfa"} 
+            ], 
+            notes: [ 
+                {title: "Full Chapter Notes", url: "#"} 
+            ] 
+        },
+        { 
+            chapterName: "2. Functions", 
+            videos: [ 
+                {title: "Lecture 1: Intro", url: "#"} 
+            ], 
+            notes: [ 
+                {title: "Function Graphs PDF", url: "#"} 
+            ] 
+        }
+    ]
+}, // <--- Notice these closing brackets and the comma! They are very important.
+
+  
+  
+  
     "Maths": {
         "Std 11": [
             { chapterName: "1. Sets and Relations", videos: [ {title: "Lecture 1: Intro to Sets", url: "#"}, {title: "Lecture 2: Subsets", url: "#"} ], notes: [ {title: "Full Chapter Notes", url: "#"} ] },
