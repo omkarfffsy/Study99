@@ -15,6 +15,10 @@ const seriesData = [
 { id: 1, title: "MATHS 2 CH 1 LECTURE 1",category: "12 TOPPERS BATCH 2026", isFeatured: true, image: "https://thumbs2.imgbox.com/60/35/PDj2Crbv_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/60/35/PDj2Crbv_t.jpg", mainLink: "https://litepaste.top/omxwldofwz" }] },
 
 { id: 2, title: "MATHS 2 CH 1 LECTURE 2",category: "12 TOPPERS BATCH 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg", mainLink: "https://litepaste.top/lyivzbmvfa" }] },
+
+{ id: 3, title: "MATHS 2 CH 1 LECTURE 3",category: "12 TOPPERS BATCH 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADnAkAAk4QAUWIVTnI0b5n0xYE " }] },
+
+{ id: 4, title: "MATHS 2 CH 1 LECTURE 4",category: "12 TOPPERS BATCH 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/f1/4e/PUEFu2tV_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE " }] },
   
     { id: 101, title: "Maharashtra HSC - Revision Strategy", category: "Daily Maths", isFeatured: true, image: "https://images.unsplash.com/photo-1632559798476-eb3268840b38?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1632559798476-eb3268840b38?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 102, title: "Maths Chapter 1: Integration Basics", category: "Daily Maths", isFeatured: true, image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
@@ -46,7 +50,10 @@ const courseData = {
             chapterName: "1. DIFFERENTIATION", 
             videos: [ 
                 {title: "Lecture 1", url: "https://litepaste.top/omxwldofwz"}, 
-                {title: "Lecture 2", url: "https://litepaste.top/lyivzbmvfa"} 
+                {title: "Lecture 2", url: "https://litepaste.top/lyivzbmvfa"} ,
+               {title:"LECTURE 3", url: "https://t.me/File_store_1a21_bot?start=BQADAQADnAkAAk4QAUWIVTnI0b5n0xYE"} ,
+               {title:"LECTURE 4", url:"https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE " },
+              
             ], 
             notes: [ 
                 {title: "Full Chapter Notes", url: "#"} 
@@ -62,6 +69,7 @@ const courseData = {
             ] 
         }
     ]
+  
 }, // <--- Notice these closing brackets and the comma! They are very important.
 
   
