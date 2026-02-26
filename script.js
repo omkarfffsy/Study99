@@ -6,19 +6,12 @@ const glassNav = document.querySelector('.glass-nav');
 // =====================================================================
 // HOW TO ADD VIDEOS TO THE MAIN HOME SCREEN (Slider & Carousels)
 // =====================================================================
-// 1. Add an object to 'seriesData'.
-// 2. 'category' defines which horizontal list it appears in (e.g. "Daily Maths").
-// 3. 'isFeatured: true' puts it in the big top slider.
-// 4. 'mainLink' is where the user goes when they click "Watch Now".
-
 const seriesData = [
-{ id: 1, title: "MATHS 2 CH 1 LECTURE 1",category: "12 TOPPERS BATCH 2026", isFeatured: true, image: "https://thumbs2.imgbox.com/60/35/PDj2Crbv_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/60/35/PDj2Crbv_t.jpg", mainLink: "https://litepaste.top/omxwldofwz" }] },
-
-{ id: 2, title: "MATHS 2 CH 1 LECTURE 2",category: "12 TOPPERS BATCH 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg", mainLink: "https://litepaste.top/lyivzbmvfa" }] },
-
-{ id: 3, title: "MATHS 2 CH 1 LECTURE 3",category: "12 TOPPERS BATCH 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADnAkAAk4QAUWIVTnI0b5n0xYE " }] },
-
-{ id: 4, title: "MATHS 2 CH 1 LECTURE 4",category: "12 TOPPERS BATCH 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/f1/4e/PUEFu2tV_t.jpg ", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE " }] },
+    { id: 1, title: "MATHS 2 CH 1 LECTURE 1 DIFFERENTIATION", category: "12 TOPPERS BATCH MATHS 2026", isFeatured: true, image: "https://thumbs2.imgbox.com/60/35/PDj2Crbv_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/60/35/PDj2Crbv_t.jpg", mainLink: "https://litepaste.top/omxwldofwz" }] },
+    { id: 2, title: "MATHS 2 CH 1 LECTURE 2 DIFFERENTIATION", category: "12 TOPPERS BATCH MATHS 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg", mainLink: "https://litepaste.top/lyivzbmvfa" }] },
+    { id: 3, title: "MATHS 2 CH 1 LECTURE 3 DIFFERENTIATION", category: "12 TOPPERS BATCH MATHS 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADnAkAAk4QAUWIVTnI0b5n0xYE" }] },
+    { id: 4, title: "MATHS 2 CH 1 LECTURE 4 DIFFERENTIATION", category: "12 TOPPERS BATCH MATHS 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/f1/4e/PUEFu2tV_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE" }] },
+    { id: 500, title: "CH 10 LECTURE 1 HALOGEN DERIVATION", category: "12 TOPPERS BATCH CHEMISTRY 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/94/bf/pXys7Xwr_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/94/bf/pXys7Xwr_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE" }] },
   
     { id: 101, title: "Maharashtra HSC - Revision Strategy", category: "Daily Maths", isFeatured: true, image: "https://images.unsplash.com/photo-1632559798476-eb3268840b38?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1632559798476-eb3268840b38?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 102, title: "Maths Chapter 1: Integration Basics", category: "Daily Maths", isFeatured: true, image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
@@ -31,17 +24,6 @@ const seriesData = [
 // =====================================================================
 // HOW TO ADD FOLDERS AND LINKS TO "PLAYLISTS" & "NOTES"
 // =====================================================================
-// Follow this exact structure:
-// "Subject Name": {
-//    "Standard Name": [
-//        { 
-//           chapterName: "Name of Chapter", 
-//           videos: [ {title: "Video Name", url: "https://..."} ], 
-//           notes: [ {title: "PDF Name", url: "https://..."} ] 
-//        }
-//    ]
-// }
-
 const courseData = {
  
   "TOPPERS BATCH 2026": {
@@ -51,9 +33,8 @@ const courseData = {
             videos: [ 
                 {title: "Lecture 1", url: "https://litepaste.top/omxwldofwz"}, 
                 {title: "Lecture 2", url: "https://litepaste.top/lyivzbmvfa"} ,
-               {title:"LECTURE 3", url: "https://t.me/File_store_1a21_bot?start=BQADAQADnAkAAk4QAUWIVTnI0b5n0xYE"} ,
-               {title:"LECTURE 4", url:"https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE " },
-              
+                {title: "LECTURE 3", url: "https://t.me/File_store_1a21_bot?start=BQADAQADnAkAAk4QAUWIVTnI0b5n0xYE"} ,
+                {title: "LECTURE 4", url: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE" }
             ], 
             notes: [ 
                 {title: "Full Chapter Notes", url: "#"} 
@@ -68,47 +49,55 @@ const courseData = {
                 {title: "Function Graphs PDF", url: "#"} 
             ] 
         }
+    ], // <-- Comma added here to separate Maths from Chemistry
+    
+    "Chemistry (Std 12)": [
+        { 
+            chapterName: "10. Halogen Derivatives", 
+            videos: [ 
+                {title: "Lecture 1: Halogen Derivation", url: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE"} 
+            ], 
+            notes: [ 
+                {title: "Full Chapter Notes", url: "#"} 
+            ] 
+        }
     ]
+  },
   
-}, // <--- Notice these closing brackets and the comma! They are very important.
-
-  
-  
-  
-    "Maths": {
-        "Std 11": [
-            { chapterName: "1. Sets and Relations", videos: [ {title: "Lecture 1: Intro to Sets", url: "#"}, {title: "Lecture 2: Subsets", url: "#"} ], notes: [ {title: "Full Chapter Notes", url: "#"} ] },
-            { chapterName: "2. Functions", videos: [ {title: "Lecture 1: Intro", url: "#"} ], notes: [ {title: "Function Graphs PDF", url: "#"} ] }
-        ],
-        "Std 12": [
-            { chapterName: "1. Mathematical Logic", videos: [ {title: "Lecture 1: Statements", url: "#"} ], notes: [ {title: "Logic Truth Tables", url: "#"} ] },
-            { chapterName: "2. Matrices", videos: [ {title: "Lecture 1: Adjoint", url: "#"} ], notes: [ {title: "Matrices Notes", url: "#"} ] },
-            { chapterName: "3. Integration", videos: [ {title: "Lecture 1: Basics", url: "#"} ], notes: [ {title: "Integration Shortcuts", url: "#"} ] }
-        ]
-    },
-    "Physics": {
-        "Std 11": [
-            { chapterName: "1. Units and Measurements", videos: [ {title: "Lec 1: Intro", url: "#"} ], notes: [ {title: "Notes", url: "#"} ] },
-            { chapterName: "2. Mathematical Methods", videos: [ {title: "Lec 1: Vectors", url: "#"} ], notes: [ {title: "Notes", url: "#"} ] }
-        ],
-        "Std 12": [
-            { chapterName: "1. Rotational Dynamics", videos: [ {title: "Lec 1: Circular Motion", url: "#"} ], notes: [ {title: "Full Chapter Notes", url: "#"} ] },
-            { chapterName: "2. Mechanical Properties of Fluids", videos: [ {title: "Lec 1: Pressure", url: "#"} ], notes: [ {title: "Full Chapter Notes", url: "#"} ] }
-        ]
-    },
-    "Chemistry": {
-        "Std 11": [
-            { chapterName: "1. Some Basic Concepts of Chemistry", videos: [ {title: "Lec 1: Matter", url: "#"} ], notes: [ {title: "Mole Concept Tricks", url: "#"} ] },
-            { chapterName: "4. Structure of Atom", videos: [ {title: "Lec 1: Discovery", url: "#"} ], notes: [ {title: "Structure of Atom PDF", url: "#"} ] },
-            { chapterName: "5. Chemical Bonding", videos: [ {title: "Lec 1: Ionic Bond", url: "#"} ], notes: [ {title: "Hybridization Chart", url: "#"} ] }
-        ],
-        "Std 12": [
-            { chapterName: "1. Solid State", videos: [ {title: "Lec 1: Types of Solids", url: "#"} ], notes: [ {title: "Solid State Short Notes", url: "#"} ] },
-            { chapterName: "2. Solutions", videos: [ {title: "Lec 1: Concentration", url: "#"} ], notes: [ {title: "Solutions Formula Sheet", url: "#"} ] },
-            { chapterName: "3. Ionic Equilibria", videos: [ {title: "Lec 1: Acids & Bases", url: "#"} ], notes: [ {title: "Ionic Equilibria PDF", url: "#"} ] },
-            { chapterName: "4. Chemical Thermodynamics", videos: [ {title: "Lec 1: Introduction", url: "#"} ], notes: [ {title: "Thermodynamics Notes", url: "#"} ] }
-        ]
-    }
+  "Maths": {
+      "Std 11": [
+          { chapterName: "1. Sets and Relations", videos: [ {title: "Lecture 1: Intro to Sets", url: "#"}, {title: "Lecture 2: Subsets", url: "#"} ], notes: [ {title: "Full Chapter Notes", url: "#"} ] },
+          { chapterName: "2. Functions", videos: [ {title: "Lecture 1: Intro", url: "#"} ], notes: [ {title: "Function Graphs PDF", url: "#"} ] }
+      ],
+      "Std 12": [
+          { chapterName: "1. Mathematical Logic", videos: [ {title: "Lecture 1: Statements", url: "#"} ], notes: [ {title: "Logic Truth Tables", url: "#"} ] },
+          { chapterName: "2. Matrices", videos: [ {title: "Lecture 1: Adjoint", url: "#"} ], notes: [ {title: "Matrices Notes", url: "#"} ] },
+          { chapterName: "3. Integration", videos: [ {title: "Lecture 1: Basics", url: "#"} ], notes: [ {title: "Integration Shortcuts", url: "#"} ] }
+      ]
+  },
+  "Physics": {
+      "Std 11": [
+          { chapterName: "1. Units and Measurements", videos: [ {title: "Lec 1: Intro", url: "#"} ], notes: [ {title: "Notes", url: "#"} ] },
+          { chapterName: "2. Mathematical Methods", videos: [ {title: "Lec 1: Vectors", url: "#"} ], notes: [ {title: "Notes", url: "#"} ] }
+      ],
+      "Std 12": [
+          { chapterName: "1. Rotational Dynamics", videos: [ {title: "Lec 1: Circular Motion", url: "#"} ], notes: [ {title: "Full Chapter Notes", url: "#"} ] },
+          { chapterName: "2. Mechanical Properties of Fluids", videos: [ {title: "Lec 1: Pressure", url: "#"} ], notes: [ {title: "Full Chapter Notes", url: "#"} ] }
+      ]
+  },
+  "Chemistry": {
+      "Std 11": [
+          { chapterName: "1. Some Basic Concepts of Chemistry", videos: [ {title: "Lec 1: Matter", url: "#"} ], notes: [ {title: "Mole Concept Tricks", url: "#"} ] },
+          { chapterName: "4. Structure of Atom", videos: [ {title: "Lec 1: Discovery", url: "#"} ], notes: [ {title: "Structure of Atom PDF", url: "#"} ] },
+          { chapterName: "5. Chemical Bonding", videos: [ {title: "Lec 1: Ionic Bond", url: "#"} ], notes: [ {title: "Hybridization Chart", url: "#"} ] }
+      ],
+      "Std 12": [
+          { chapterName: "1. Solid State", videos: [ {title: "Lec 1: Types of Solids", url: "#"} ], notes: [ {title: "Solid State Short Notes", url: "#"} ] },
+          { chapterName: "2. Solutions", videos: [ {title: "Lec 1: Concentration", url: "#"} ], notes: [ {title: "Solutions Formula Sheet", url: "#"} ] },
+          { chapterName: "3. Ionic Equilibria", videos: [ {title: "Lec 1: Acids & Bases", url: "#"} ], notes: [ {title: "Ionic Equilibria PDF", url: "#"} ] },
+          { chapterName: "4. Chemical Thermodynamics", videos: [ {title: "Lec 1: Introduction", url: "#"} ], notes: [ {title: "Thermodynamics Notes", url: "#"} ] }
+      ]
+  }
 };
 
 // --- UI Elements Reference ---
