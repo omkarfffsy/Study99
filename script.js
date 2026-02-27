@@ -11,7 +11,7 @@ const seriesData = [
     { id: 2, title: "MATHS 2 CH 1 LECTURE 2 DIFFERENTIATION", category: "12 TOPPERS BATCH MATHS 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/fe/23/mRT7ZfTH_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADEw4AAsVQ4EQpEWXjA5tZkxYE" }] },
     { id: 3, title: "MATHS 2 CH 1 LECTURE 3 DIFFERENTIATION", category: "12 TOPPERS BATCH MATHS 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/13/04/FtdPfkdh_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADnAkAAk4QAUWIVTnI0b5n0xYE" }] },
     { id: 4, title: "MATHS 2 CH 1 LECTURE 4 DIFFERENTIATION", category: "12 TOPPERS BATCH MATHS 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/f1/4e/PUEFu2tV_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/f1/4e/PUEFu2tV_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE" }] },
-    { id: 500, title: "CH 10 LECTURE 1 HALOGEN DERIVATION", category: "12 CRASH COURSE CHEMISTRY 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/94/bf/pXys7Xwr_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/94/bf/pXys7Xwr_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE" }] },
+    { id: 500, title: "CH 10 LECTURE 1 HALOGEN DERIVATION", category: "12 CRASH COURSE CHEMISTRY 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/94/bf/pXys7Xwr_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/94/bf/pXys7Xwr_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADAxMAAk4QCUVB_QZvMrp6gxYE" }] },
   
     { id: 600, title: "MATHS 2 CH 1 LELECTUR 1 DIFFERENTIATION", category: "CRASH COURSE MATHS 2 2026", isFeatured: true, image: "https://thumbs2.imgbox.com/aa/f5/lHobrX4W_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/aa/f5/lHobrX4W_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADqRIAAk4QCUUIkLo2G9dhZBYE" }] },
     { id: 102, title: "Maths Chapter 1: Integration Basics", category: "Daily Maths", isFeatured: true, image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
@@ -57,7 +57,7 @@ const courseData = {
         { 
             chapterName: "10. Halogen Derivatives", 
             videos: [ 
-                {title: "Lecture 1: Halogen Derivation", url: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE"} 
+                {title: "Lecture 1: Halogen Derivation", url: "https://t.me/File_store_1a21_bot?start=BQADAQADAxMAAk4QCUVB_QZvMrp6gxYE"} 
             ], 
             notes: [ 
                 {title: "Full Chapter Notes", url: "#"} 
