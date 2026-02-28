@@ -13,8 +13,9 @@ const seriesData = [
     { id: 4, title: "MATHS 2 CH 1 LECTURE 4 DIFFERENTIATION", category: "12 TOPPERS BATCH MATHS 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/f1/4e/PUEFu2tV_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/f1/4e/PUEFu2tV_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE" }] },
     { id: 500, title: "CH 10 LECTURE 1 HALOGEN DERIVATION", category: "12 CRASH COURSE CHEMISTRY 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/94/bf/pXys7Xwr_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/94/bf/pXys7Xwr_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADAxMAAk4QCUVB_QZvMrp6gxYE" }] },
   
-    { id: 600, title: "MATHS 2 CH 1 LELECTUR 1 DIFFERENTIATION", category: "CRASH COURSE MATHS 2 2026", isFeatured: true, image: "https://thumbs2.imgbox.com/aa/f5/lHobrX4W_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/aa/f5/lHobrX4W_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADqRIAAk4QCUUIkLo2G9dhZBYE" }] },
-    { id: 102, title: "Maths Chapter 1: Integration Basics", category: "Daily Maths", isFeatured: true, image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
+    { id: 600, title: "MATHS 2 CH 1 LELECTUR 1 DIFFERENTIATION", category: "12 CRASH COURSE MATHS 2 2026", isFeatured: true, image: "https://thumbs2.imgbox.com/aa/f5/lHobrX4W_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/aa/f5/lHobrX4W_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADqRIAAk4QCUUIkLo2G9dhZBYE" }] },
+    { id: 601, title: "MATHS 2 CH 1 LELECTUR 2 DIFFERENTIATION", category: "12 CRASH COURSE MATHS 2 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/a0/66/a9VR64se_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/a0/66/a9VR64se_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADPBMAAl_CEUV8HcnHY9MCvRYE" }] },
+    
     { id: 201, title: "Physics Chapter 1: Thermodynamics", category: "Physics", isFeatured: true, image: "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 301, title: "Chemistry Chapter 1: Solid State", category: "Chemistry", isFeatured: true, image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 302, title: "Chemistry Chapter 2: Solutions", category: "Chemistry", isFeatured: false, image: "https://images.unsplash.com/photo-1603126852818-189f33c09b82?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1603126852818-189f33c09b82?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
@@ -37,7 +38,7 @@ const courseData = {
                 {title: "LECTURE 4", url: "https://t.me/File_store_1a21_bot?start=BQADAQADDgoAAk4QAUVaIPl9NtivhBYE" }
             ], 
             notes: [ 
-                {title: "Full Chapter Notes", url: "#"} 
+                {title: "omkar soni", url: "#"} 
             ] 
         },
         { 
@@ -60,7 +61,7 @@ const courseData = {
                 {title: "Lecture 1: Halogen Derivation", url: "https://t.me/File_store_1a21_bot?start=BQADAQADAxMAAk4QCUVB_QZvMrp6gxYE"} 
             ], 
             notes: [ 
-                {title: "Full Chapter Notes", url: "#"} 
+                {title: "coming ", url: "  "} 
             ] 
         }
     ], // <--- Comma separating Chemistry and Maths inside Crash Course
@@ -71,7 +72,7 @@ const courseData = {
                 {title: "Lecture 1: Intro", url: "https://t.me/File_store_1a21_bot?start=BQADAQADqRIAAk4QCUUIkLo2G9dhZBYE"} 
             ], 
             notes: [ 
-                {title: "Differentiation Cheat Sheet", url: "#"} 
+                {title: "MATHS 2 CH 1 BRAHMASTRA LILIT", url: "https://t.me/File_store_1a21_bot?start=BQADAQAD3xIAAl_CEUXsy2JMylb96xYE"} 
             ] 
         }
     ]
