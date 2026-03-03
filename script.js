@@ -21,6 +21,12 @@ const seriesData = [
     { id: 603, title: "MATHS 2 CH 1 LELELECTUR 4 DIFFERENTIATION", category: "12 CRASH COURSE MATHS 2 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/a9/1b/DENt4bSi_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/a9/1b/DENt4bSi_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQAD9A8AAtq5MEV-ZmdrQNrJiBYE" }] },
     
      { id: 604, title: "MATHS 2 CH 1 LELELECTUR 5 DIFFERENTIATION", category: "12 CRASH COURSE MATHS 2 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/17/70/TpXpEDKK_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/17/70/TpXpEDKK_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQAD-wkAAhuCOUUJ3_oQ3wOrxBYE" }] },
+     
+     { id: 700, title: "MATHS 1 CH 1 LELELECTUR 1 LOGIC", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/bf/15/G7obXCaN_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/bf/15/G7obXCaN_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADtA4AAhuCOUWe8WXPfelPZBYE" }] },
+     { id: 701, title: "MATHS 1 CH 1 LELELECTUR 2 LOGIC", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/14/ff/l7oBwvG4_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/14/ff/l7oBwvG4_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADXg4AAhuCOUX0CXgsybIFwhYE" }] },
+     
+     
+     
     
     { id: 301, title: "Chemistry Chapter 1: Solid State", category: "Chemistry", isFeatured: true, image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 302, title: "Chemistry Chapter 2: Solutions", category: "Chemistry", isFeatured: false, image: "https://images.unsplash.com/photo-1603126852818-189f33c09b82?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1603126852818-189f33c09b82?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
@@ -89,8 +95,27 @@ const courseData = {
                 {title: "TARGET MATHS 2 CH 1 MQC" , url: "https://t.me/File_store_1a21_bot?start=BQADAQADkgsAAtq5IEU65ES64i4cghYE" }
             ] 
         }
-    ]
-  }, 
+    ] ,
+    "Maths 1 (Std 12)": [
+          { chapterName: "LOGIC ", 
+          videos: [ 
+            {title: "Lecture 1: ", url: "https://t.me/File_store_1a21_bot?start=BQADAQADtA4AAhuCOUWe8WXPfelPZBYE"}, 
+            {title: "LECTURE 2" ,
+            url: "https://t.me/File_store_1a21_bot?start=BQADAQADXg4AAhuCOUX0CXgsybIFwhYE" },
+          
+          
+          
+          
+          
+      ] ,
+      notes: [ 
+                {title: "MATHS 1 CH 1 BRAHMASTRA LITE", 
+                url: "#"} ,
+                ]
+    
+  } 
+  ] 
+  },
   
   "Maths": {
       "Std 11": [
