@@ -20,6 +20,8 @@ const seriesData = [
     
     { id: 603, title: "MATHS 2 CH 1 LELELECTUR 4 DIFFERENTIATION", category: "12 CRASH COURSE MATHS 2 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/a9/1b/DENt4bSi_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/a9/1b/DENt4bSi_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQAD9A8AAtq5MEV-ZmdrQNrJiBYE" }] },
     
+     { id: 604, title: "MATHS 2 CH 1 LELELECTUR 5 DIFFERENTIATION", category: "12 CRASH COURSE MATHS 2 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/17/70/TpXpEDKK_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/17/70/TpXpEDKK_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQAD-wkAAhuCOUUJ3_oQ3wOrxBYE" }] },
+    
     { id: 301, title: "Chemistry Chapter 1: Solid State", category: "Chemistry", isFeatured: true, image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 302, title: "Chemistry Chapter 2: Solutions", category: "Chemistry", isFeatured: false, image: "https://images.unsplash.com/photo-1603126852818-189f33c09b82?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1603126852818-189f33c09b82?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 303, title: "Chemistry Chapter 3: Ionic Equilibria", category: "Chemistry", isFeatured: false, image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] }
@@ -77,8 +79,10 @@ const courseData = {
                 url:"https://t.me/File_store_1a21_bot?start=BQADAQADPBMAAl_CEUV8HcnHY9MCvRYE"} ,
                 {title: "LECTURE 3" ,
                 url: "https://t.me/File_store_1a21_bot?start=BQADAQAD9gsAAtq5IEUxeFC-nwrpoRYE" } ,
-                {title: "LECTURE4" ,
+                {title: "LECTURE 4" ,
                 url: "https://t.me/File_store_1a21_bot?start=BQADAQAD9A8AAtq5MEV-ZmdrQNrJiBYE"},
+                {title:"LECTURE 5" ,
+                url: "https://t.me/File_store_1a21_bot?start=BQADAQAD-wkAAhuCOUUJ3_oQ3wOrxBYE" }
             ], 
             notes: [ 
                 {title: "MATHS 2 CH 1 BRAHMASTRA LITE", url: "https://t.me/File_store_1a21_bot?start=BQADAQAD3xIAAl_CEUXsy2JMylb96xYE"} ,
