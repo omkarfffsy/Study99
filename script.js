@@ -25,6 +25,8 @@ const seriesData = [
      { id: 700, title: "MATHS 1 CH 1 LELELECTUR 1 LOGIC", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/bf/15/G7obXCaN_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/bf/15/G7obXCaN_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADtA4AAhuCOUWe8WXPfelPZBYE" }] },
      { id: 701, title: "MATHS 1 CH 1 LELELECTUR 2 LOGIC", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/14/ff/l7oBwvG4_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/14/ff/l7oBwvG4_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADXg4AAhuCOUX0CXgsybIFwhYE" }] },
 { id: 702, title: "MATHS 1 CH 1 LELELECTUR 3 LOGIC", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/f3/d6/r7OsyG2j_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/f3/d6/r7OsyG2j_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADCwYAAooGUUWe5rZPZoDOlRYE" }] },
+
+{ id: 703, title: "MATHS 1 CH 2 LELELECTUR 1 Matrices", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/30/86/dpCnSN6d_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/30/86/dpCnSN6d_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADWhAAAlTOaEUGkGl4CPHidhYE" }] },
      
      
      
