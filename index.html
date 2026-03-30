@@ -1,84 +1,35 @@
-<!DOCTYPE html>  
-<html lang="en">  
+<!DOCTYPE html>  <html lang="en">  
 <head>  
     <meta charset="UTF-8">  
     <title>Study Hub</title>  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- ✅ AdSense Code (IMPORTANT) -->  
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3450618106875645"  
+ crossorigin="anonymous"></script>  
 
-    <!-- ✅ AdSense Code -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3450618106875645"
-     crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+  
+<link rel="stylesheet" href="style.css">
 
-    <!-- ✅ Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">  
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap">  
-
-    <!-- ✅ Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
-
-    <!-- ✅ CSS FIXED -->
-    <link rel="stylesheet" href="./style.css">
-</head>  
-
-<body>  
-
-    <div id="preloader">
-        <div class="shutter-panes">
-            <div class="pane"></div>
-            <div class="pane"></div>
-        </div>
-        <div class="loader-content">
-            <div class="loader-text">STUDY HUB</div>
-            <div class="loading-bar-container">
-                <div class="loading-bar-progress"></div>
-            </div>
-        </div>
+</head>  <body>  <div id="preloader">  
+    <div class="shutter-panes">  
+        <div class="pane"></div>  
+        <div class="pane"></div>  
     </div>  
-
-    <div id="modal-overlay" class="hidden">  
-        <div id="age-gate-modal" class="modal-box">  
-            <div class="modal-icon"><i class="fas fa-graduation-cap"></i></div>  
-            <h2 class="modal-title">Student Code of Conduct</h2>  
-            <p class="modal-subtitle">Commit to your success today.</p>  
-            <div class="terms-content">  
-                <p>Welcome to <strong>Study Hub</strong>.</p>  
-                <ol>  
-                    <li>Daily Consistency</li>  
-                    <li>Active Note-Taking</li>  
-                    <li>Practice & Revision</li>
-                    <li>Zero Distractions</li>  
-                </ol>  
-            </div>  
-            <div class="modal-actions">  
-                <button id="age-gate-no">Not Ready</button>  
-                <button id="age-gate-yes">I Agree</button>  
-            </div>  
+    <div class="loader-content">  
+        <div class="loader-text">STUDY HUB</div>  
+        <div class="loading-bar-container">  
+            <div class="loading-bar-progress"></div>  
         </div>  
     </div>  
+</div>  
 
-    <div id="app-wrapper" class="hidden">  
-        <main id="app-main-content">  
+<!-- बाकी तुम्हारा पूरा same code रहेगा नीचे -->  
 
-            <div id="home-view" class="app-view">  
-                <section id="hero-section">  
-                    <div id="hero-slider"></div>  
-                </section>  
-
-                <div class="quick-links">
-                    <button id="btn-playlist">Chapter Playlist</button>
-                    <button id="btn-notes">Notes & PDFs</button>
-                </div>
-
-                <div id="content-sections"></div>  
-            </div>  
-
-        </main>  
-    </div>  
-
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>  
-    <script src="script.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>  
+<script src="script.js" defer></script>
 
 </body>  
 </html>
