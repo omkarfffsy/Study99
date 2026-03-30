@@ -31,7 +31,7 @@ const seriesData = [
      
      
     
-    { id: 301, title: "Chemistry Chapter 1: Solid State", category: "Chemistry", isFeatured: true, image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
+    { id: 301, title: " Solid State", category: "Chemistry", isFeatured: true, image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 302, title: "Chemistry Chapter 2: Solutions", category: "Chemistry", isFeatured: false, image: "https://images.unsplash.com/photo-1603126852818-189f33c09b82?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1603126852818-189f33c09b82?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
     { id: 303, title: "Chemistry Chapter 3: Ionic Equilibria", category: "Chemistry", isFeatured: false, image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] }
 ];  
