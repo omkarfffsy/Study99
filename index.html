@@ -31,15 +31,6 @@
 <script src="https://www.highperformanceformat.com/5c840a16f871b9c126412f1b712f64d5/invoke.js"></script>
 </div>
 
-<!-- ✅ POPUNDER ADS -->
-<script src="https://pl29050899.profitablecpmratenetwork.com/4f/bb/0f/4fbb0f4b4f6c7302a10316c3cc61ef91.js"></script>
-<script src="https://pl29050900.profitablecpmratenetwork.com/26/78/26/267826a054bbe0202ba0fcc607aba5c1.js"></script>
-
-<!-- ✅ SOCIAL BAR -->
-<script async="async" data-cfasync="false" src="https://pl29050901.profitablecpmratenetwork.com/3bf7a643d4a3cb75559006b1ca65982f/invoke.js"></script>
-<div id="container-3bf7a643d4a3cb75559006b1ca65982f"></div>
-
-
 <div id="preloader">
     <div class="shutter-panes">
         <div class="pane"></div>
@@ -81,8 +72,8 @@
             </section>  
             
             <div class="quick-links">
-                <button id="btn-playlist" class="pro-button secondary">Chapter Playlist</button>
-                <button id="btn-notes" class="pro-button secondary">Notes & PDFs</button>
+                <button id="btn-playlist" class="pro-button secondary"><i class="fas fa-list-ol"></i> Chapter Playlist</button>
+                <button id="btn-notes" class="pro-button secondary"><i class="fas fa-book-open"></i> Notes & PDFs</button>
             </div>
 
             <div id="content-sections"></div>  
@@ -113,14 +104,34 @@
 </div>  
 
 <nav class="glass-nav hidden">  
-    <a href="#" class="nav-item active" data-view="home-view">Home</a>  
-    <a href="#" class="nav-item" data-view="search-view">Search</a>  
-    <a href="#" class="nav-item" data-view="likes-view">Saved</a>  
-    <a href="#" class="nav-item" data-view="profile-view">Profile</a>  
+    <a href="#" class="nav-item active" data-view="home-view"><i class="fas fa-home"></i><span>Home</span></a>  
+    <a href="#" class="nav-item" data-view="search-view"><i class="fas fa-search"></i><span>Search</span></a>  
+    <a href="#" class="nav-item" data-view="likes-view"><i class="fas fa-bookmark"></i><span>Saved</span></a>  
+    <a href="#" class="nav-item" data-view="profile-view"><i class="fas fa-user"></i><span>Profile</span></a>  
+    <div class="nav-spotlight"></div>  
 </nav>  
 
 <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>  
 <script src="script.js" defer></script>
+
+<!-- ✅ SOCIAL BAR (BOTTOM) -->
+<script async data-cfasync="false" src="https://pl29050901.profitablecpmratenetwork.com/3bf7a643d4a3cb75559006b1ca65982f/invoke.js"></script>
+<div id="container-3bf7a643d4a3cb75559006b1ca65982f"></div>
+
+<!-- ✅ POPUNDER (DELAYED LOAD - NO UI BREAK) -->
+<script>
+window.onload = function() {
+
+  var s1 = document.createElement('script');
+  s1.src = "https://pl29050899.profitablecpmratenetwork.com/4f/bb/0f/4fbb0f4b4f6c7302a10316c3cc61ef91.js";
+  document.body.appendChild(s1);
+
+  var s2 = document.createElement('script');
+  s2.src = "https://pl29050900.profitablecpmratenetwork.com/26/78/26/267826a054bbe0202ba0fcc607aba5c1.js";
+  document.body.appendChild(s2);
+
+};
+</script>
 
 </body>  
 </html>
