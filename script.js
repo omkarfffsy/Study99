@@ -31,6 +31,9 @@ const seriesData = [
      { id: 704, title: "MATHS 1 CH 2 LELELECTUR 2 Matrices", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/ab/da/uISw0xbX_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/ab/da/uISw0xbX_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADKxUAAi5wOEQ-6w_I71UAAZ0WBA" }] },
 
 
+ { id: 705, title: "MATHS 1 CH 4 LELELECTUR 1 Pair of straight line ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/98/b7/S1IjsmMc_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/98/b7/S1IjsmMc_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADVgkAAhbgQURblyqKF8RI9RYE" }] },
+
+
      
     
     { id: 301, title: " Solid State", category: "Chemistry", isFeatured: true, image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", episodes: [{ thumbnail: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop&q=60", mainLink: "#" }] },
