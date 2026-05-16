@@ -34,10 +34,10 @@ const seriesData = [
 { id: 707, title: "MATHS 1 CH 3 LELELECTUR 1 Trigonometric Functions ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/e2/be/mQc746dF_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/e2/be/mQc746dF_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADNwoAAhbgQUT-F0XjUm53GBYE" }] },
 
 
-{ id: 707, title: "MATHS 1 CH 3 LELELECTUR 2 Trigonometric Functions ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/f9/aa/MiBs1G2v_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/f9/aa/MiBs1G2v_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADSgoAAhbgQUTKrhSk5_4CERYE" }] },
+{ id: 708, title: "MATHS 1 CH 3 LELELECTUR 2 Trigonometric Functions ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/f9/aa/MiBs1G2v_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/f9/aa/MiBs1G2v_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADSgoAAhbgQUTKrhSk5_4CERYE" }] },
 
 
-{ id: 707, title: "MATHS 1 CH 3 LELELECTUR 3 Trigonometric Functions ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/2e/1d/Cr5SU92G_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/2e/1d/Cr5SU92G_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADbAoAAhbgQURzsePgae8F6hYE" }] },
+{ id: 709, title: "MATHS 1 CH 3 LELELECTUR 3 Trigonometric Functions ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/2e/1d/Cr5SU92G_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/2e/1d/Cr5SU92G_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADbAoAAhbgQURzsePgae8F6hYE" }] },
 
 
 
