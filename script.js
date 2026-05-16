@@ -34,6 +34,13 @@ const seriesData = [
 { id: 707, title: "MATHS 1 CH 3 LELELECTUR 1 Trigonometric Functions ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/e2/be/mQc746dF_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/e2/be/mQc746dF_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADNwoAAhbgQUT-F0XjUm53GBYE" }] },
 
 
+{ id: 707, title: "MATHS 1 CH 3 LELELECTUR 2 Trigonometric Functions ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/f9/aa/MiBs1G2v_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/f9/aa/MiBs1G2v_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADSgoAAhbgQUTKrhSk5_4CERYE" }] },
+
+
+
+
+
+
 
  { id: 705, title: "MATHS 1 CH 4 LELELECTUR 1 Pair of straight line ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/98/b7/S1IjsmMc_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/98/b7/S1IjsmMc_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADVgkAAhbgQURblyqKF8RI9RYE" }] },
 
