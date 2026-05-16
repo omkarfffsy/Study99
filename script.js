@@ -31,6 +31,10 @@ const seriesData = [
      { id: 704, title: "MATHS 1 CH 2 LELELECTUR 2 Matrices", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/ab/da/uISw0xbX_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/ab/da/uISw0xbX_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADKxUAAi5wOEQ-6w_I71UAAZ0WBA" }] },
 
 
+{ id: 707, title: "MATHS 1 CH 3 LELELECTUR 1 Trigonometric Functions ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/e2/be/mQc746dF_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/e2/be/mQc746dF_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADNwoAAhbgQUT-F0XjUm53GBYE" }] },
+
+
+
  { id: 705, title: "MATHS 1 CH 4 LELELECTUR 1 Pair of straight line ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/98/b7/S1IjsmMc_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/98/b7/S1IjsmMc_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADVgkAAhbgQURblyqKF8RI9RYE" }] },
 
 { id: 706, title: "MATHS 1 CH 4 LELELECTUR 2 Pair of straight line ", category: "12 CRASH COURSE MATHS 1 2026", isFeatured: false, image: "https://thumbs2.imgbox.com/4c/e7/BOLDzTA5_t.jpg", episodes: [{ thumbnail: "https://thumbs2.imgbox.com/4c/e7/BOLDzTA5_t.jpg", mainLink: "https://t.me/File_store_1a21_bot?start=BQADAQADFQoAAhbgQURpr6PM4t8OuxYE" }] },
