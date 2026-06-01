@@ -68,12 +68,13 @@ html, body {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    z-index: 1000; /* FIXED Z-INDEX */
+    z-index: 1000; /* Fixed: Placed beneath the modal (which is 2000) */
     transition: opacity 0.5s ease-out, visibility 0.5s ease-out; 
 }
 #preloader.fade-out { 
     opacity: 0; 
     visibility: hidden; 
+    pointer-events: none;
 }
 .loader-content { 
     text-align: center; 
