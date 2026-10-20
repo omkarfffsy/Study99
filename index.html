@@ -49,29 +49,28 @@
 <div id="app-wrapper" class="hidden">  
     <main id="app-main-content">  
 
-        <!-- TEXTBOOK VIEW (New Default) -->
+        <!-- TEXTBOOK VIEW -->
         <div id="textbook-view" class="app-view">
             <header class="app-top-header">
                 <div class="header-user"><img src="https://placehold.co/40x40/161b22/00ddb5?text=U"></div>
                 <h1 class="view-title" style="text-align:left; padding-left:15px; width:auto; flex-grow:1;">Textbook</h1>
             </header>
             <div class="subject-grid">
-                <div class="textbook-card grid-open-btn" data-subject="Physics" data-std="Std 12" style="background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);">
-                    <div class="card-title">PHYSICS</div>
-                    <div class="card-label">Physics</div>
+                
+                <!-- BEE CARD -->
+                <div class="textbook-card grid-open-btn" data-subject="BEE" style="background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%);">
+                    <i class="fas fa-bolt card-bg-icon"></i>
+                    <div class="card-title">BEE<br><span style="font-size:0.65rem; font-weight:600; opacity: 0.9; text-transform: uppercase;">Basic Electrical</span></div>
+                    <div class="card-label">BEE</div>
                 </div>
-                <div class="textbook-card grid-open-btn" data-subject="Chemistry" data-std="Std 12" style="background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);">
-                    <div class="card-title" style="color:#101418;">CHEMISTRY</div>
-                    <div class="card-label">Chemistry</div>
+
+                <!-- E-MATHS CARD -->
+                <div class="textbook-card grid-open-btn" data-subject="E-MATHS" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <i class="fas fa-calculator card-bg-icon"></i>
+                    <div class="card-title">E-MATHS<br><span style="font-size:0.65rem; font-weight:600; opacity: 0.9; text-transform: uppercase;">Engineering Maths</span></div>
+                    <div class="card-label">E-MATHS</div>
                 </div>
-                <div class="textbook-card grid-open-btn" data-subject="Biology" data-std="Std 12" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);">
-                    <div class="card-title">BIOLOGY</div>
-                    <div class="card-label">Biology</div>
-                </div>
-                <div class="textbook-card grid-open-btn" data-subject="Maths" data-std="Std 12" style="background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);">
-                    <div class="card-title" style="color:#101418;">MATHS-1</div>
-                    <div class="card-label">Maths-1</div>
-                </div>
+
             </div>
         </div>
 
@@ -82,21 +81,13 @@
                 <h1 class="view-title" style="text-align:left; padding-left:15px; width:auto; flex-grow:1;">Notes</h1>
             </header>
             <div class="subject-grid">
-                <div class="notes-card grid-open-btn" data-subject="Physics" data-std="Std 12">
-                    <div class="notes-circle"><i class="fas fa-atom" style="color:#a18cd1;"></i></div>
-                    <span>Physics</span>
+                <div class="notes-card grid-open-btn" data-subject="BEE">
+                    <div class="notes-circle"><i class="fas fa-bolt" style="color:#ff7eb3;"></i></div>
+                    <span>BEE</span>
                 </div>
-                <div class="notes-card grid-open-btn" data-subject="Chemistry" data-std="Std 12">
-                    <div class="notes-circle"><i class="fas fa-flask" style="color:#00ddb5;"></i></div>
-                    <span>Chemistry</span>
-                </div>
-                <div class="notes-card grid-open-btn" data-subject="Biology" data-std="Std 12">
-                    <div class="notes-circle"><i class="fas fa-dna" style="color:#f6d365;"></i></div>
-                    <span>Biology</span>
-                </div>
-                <div class="notes-card grid-open-btn" data-subject="Maths" data-std="Std 12">
-                    <div class="notes-circle"><i class="fas fa-square-root-alt" style="color:#ff4d6d;"></i></div>
-                    <span>Maths-1</span>
+                <div class="notes-card grid-open-btn" data-subject="E-MATHS">
+                    <div class="notes-circle"><i class="fas fa-calculator" style="color:#00f2fe;"></i></div>
+                    <span>E-MATHS</span>
                 </div>
             </div>
         </div>
@@ -110,11 +101,6 @@
             </div>  
         </div>  
 
-        <div id="likes-view" class="app-view hidden">  
-            <header class="view-header"><h1 class="view-title">Bookmarked ❤️</h1></header>  
-            <div id="likes-grid" class="results-grid"></div>  
-        </div>  
-
         <div id="profile-view" class="app-view hidden">  
              <header class="view-header"><h1 class="view-title">Profile</h1></header>  
             <div class="profile-header">
@@ -122,13 +108,11 @@
                 <h2>Dedicated Scholar</h2>
             </div>  
             <div class="profile-stats">  
-                <div class="stat-item"><h3 id="stat-total-likes" class="stat-value">0</h3><p class="stat-label">Bookmarks</p></div>  
-                <div class="stat-item"><h3 id="stat-movies-liked" class="stat-value">0</h3><p class="stat-label">Lectures</p></div>  
-                <div class="stat-item"><h3 id="stat-shows-liked" class="stat-value">0</h3><p class="stat-label">Notes</p></div>  
+                <div class="stat-item"><h3 class="stat-value">0</h3><p class="stat-label">Bookmarks</p></div>  
+                <div class="stat-item"><h3 class="stat-value">0</h3><p class="stat-label">Lectures</p></div>  
+                <div class="stat-item"><h3 class="stat-value">0</h3><p class="stat-label">Notes</p></div>  
             </div>  
         </div>  
-          
-        <div id="watch-view" class="app-view hidden"></div>  
         
         <div id="directory-view" class="app-view hidden">
             <header class="view-header">
